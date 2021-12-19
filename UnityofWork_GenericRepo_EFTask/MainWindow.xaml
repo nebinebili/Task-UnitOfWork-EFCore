@@ -1,0 +1,115 @@
+﻿<Window x:Class="UnitofWork_GenericRepo_EFTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnitofWork_GenericRepo_EFTask"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        Height="700" 
+        Width="850"
+        WindowStartupLocation="CenterScreen">
+    
+    <Grid>
+        <Label
+            Content="Category"
+            Height="50"
+            Width="110"
+            FontSize="25"
+            Margin="0,0,660,610">
+
+        </Label>
+        <DataGrid
+            Height="400"
+            Width="325"
+            Name="datagrid_category"
+            Margin="0,-160,450,0">
+
+        </DataGrid>
+        <Label
+            Content="Book"
+            Height="50"
+            Width="110"
+            FontSize="25"
+            Margin="240,0,0,610">
+
+        </Label>
+        <DataGrid
+            Height="400"
+            Width="340"
+            Margin="480,-160,0,0"
+            Name="datagrid_book"
+            />
+        <Button
+            Height="60"
+            Width="120"
+            Name="btn_books" 
+            Content="⇒"           
+            FontSize="40"
+            Margin="10,0,0,100" Click="btn_books_Click"
+            >
+
+        </Button>
+
+        <Button
+            Height="35"
+            Width="315"
+            Content="Add Category"
+            FontSize="18"
+            Name="btn_addCategory"
+            Margin="0,300,450,0" Click="btn_addCategory_Click">
+            
+        </Button>
+        <Button
+            Height="35"
+            Width="315"
+            Content="Remove Category"
+            FontSize="18"
+            Name="btn_removeCategory"
+            Margin="0,400,450,0" Click="btn_removeCategory_Click">
+
+        </Button>
+
+        <Button
+            Height="35"
+            Width="315"
+            Content="Edit Category"
+            FontSize="18"
+            Name="btn_editCategory"
+            Margin="0,500,450,0" Click="btn_editCategory_Click">
+
+        </Button>
+
+
+        <Button
+            Height="35"
+            Width="315"
+            Content="Add Book"
+            FontSize="18"
+            Name="btn_addproduct"
+            Margin="480,300,0,0" Click="btn_addproduct_Click">
+
+        </Button>
+
+        <Button
+            Height="35"
+            Width="315"
+            Content="Remove Book"
+            FontSize="18"
+            Name="btn_removeproduct"
+            Margin="480,400,0,0" Click="btn_removeproduct_Click">
+
+        </Button>
+
+        <Button
+            Height="35"
+            Width="315"
+            Content="Edit Book"
+            FontSize="18"
+            Name="btn_editproduct"
+            Margin="480,500,0,0" Click="btn_editproduct_Click">
+
+        </Button>
+
+    </Grid>
+</Window>

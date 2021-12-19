@@ -1,0 +1,9 @@
+﻿<Application x:Class="UnityofWork_GenericRepo_EFTask.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:UnityofWork_GenericRepo_EFTask"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
